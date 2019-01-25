@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header">
+          <nav class="nav nav-pills fixed-top">
+            <a class="nav-item nav-link active" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#coffee">Coffee</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </nav>
+      </div>
+      <div id="home" class="card bg">
+          <div class="card-body">
+            <h1 id="title" class="display-4 font-weight-bold">Are you ready for coffee adventure?</h1>
+          </div>
+        </div>
+      <div id="coffee" name="coffee" class="card">
+        <div class="card-body">
+            <h1 class="display-4">Some facts about coffee</h1>
+            <p class="lead"></p>
+            <hr class="my-4">
+            <p>Coffee is a big part of human lifes</p>
+            <img class="img-fluid rounded mx-auto d-block" src="images/coffee5.JPG"/>
+        </div>      
+      </div>
+      <div id="about" class="card">
+          <div class="card-body">
+          <h1 class="display-4">I am Susan, nice to meet you!</h1>
+          <p class="lead"></p>
+          <hr class="my-4">
+          <p>I am a home barista, IT girl and Colombia lover. Today I tell you something about my coffee idea</p>
+          <img class="img-fluid rounded mx-auto d-block" src="images/me2.JPG"/>
+          </div>
+        </div>
+      <div id="contact" class="card">
+        <div class="card-body">
+            <h1 class="display-4">Do you have any questions?</h1>
+            <p class="lead"></p>
+            <hr class="my-4">
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="text">Your message</label>
+                <textarea class="form-control" id="text" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

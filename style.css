@@ -1,0 +1,65 @@
+body {
+    background-color: #c99942;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: #96701fb7;
+    padding: 0%;
+}
+
+a {
+    color: black;
+}
+
+.img-fluid {
+    margin-top: 25px;
+    height: 50vh;
+    width: auto;
+}
+
+a:hover {
+    color:white;
+}
+
+.nav-item.nav-link.active{
+    background-color:#a06e23;
+    margin-left: 1%;
+}
+
+#home, #about, #contact, #coffee {
+    height:100vh;
+    margin: 15px;
+    padding-top: 70px;
+}
+
+.card{
+    background-color: #e2a446;
+    background-color: #c99942;
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.bg{
+    background-image: url("images/coffee8.JPG");
+    height: 100%;
+    opacity: 0.7;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    font-size: 8vw;
+    color: white;
+    padding-top: 20vh;
+}
+
+.display-4{
+    font-size: 5vh;
+}
