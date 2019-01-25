@@ -1,22 +1,25 @@
 body {
-    background-color: #c99942;
+    background-image: url("images/background.png");
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 nav {
-    background-color: #96701fb7;
+    background-image: url("images/navbackground.png");
+    opacity: 0.8;
     padding: 0%;
 }
 
 a {
     color: black;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .img-fluid {
-    margin-top: 25px;
-    height: 50vh;
+    margin-bottom: 20px;
+    height: 45vh;
     width: auto;
 }
 
@@ -24,8 +27,9 @@ a:hover {
     color:white;
 }
 
+
 .nav-item.nav-link.active{
-    background-color:#a06e23;
+    background-color:#c99942;
     margin-left: 1%;
 }
 
@@ -36,8 +40,8 @@ a:hover {
 }
 
 .card{
-    background-color: #e2a446;
     background-color: #c99942;
+    background-image: url("images/background.png");
     border: 0px;
     text-align: center;
     vertical-align: middle;
@@ -54,6 +58,12 @@ a:hover {
     background-size: cover;
 }
 
+#coffee{
+    background-image: url("images/coffee7.jpg");
+    opacity: 0.6;
+    color: white;
+}
+
 #title {
     font-size: 8vw;
     color: white;
@@ -62,4 +72,19 @@ a:hover {
 
 .display-4{
     font-size: 5vh;
+}
+
+button {
+    background-image: url("images/background.png");
+    border: 2px outset white;
+    border-radius: 9px;
+    padding: 10px 15px 10px 15px;
+}
+
+.list-group-item{
+    font-family: Verdana;
+    border: 0px;
+    color: white;
+    margin: 5px;
+    background-image: url("images/background.png");
 }
